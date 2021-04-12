@@ -1,5 +1,5 @@
 <h1>hershyz/interview-questions</h1>
-<p>Additional CS interview questions (not leetcode)</p>
+<p>Additional CS interview questions (not Leetcode)</p>
 
 <h4>Notes</h4>
 <ul>
