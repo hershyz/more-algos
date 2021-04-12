@@ -163,3 +163,20 @@
         }
     }
 ```
+
+### Stacks
+```java
+        Stack<Integer> stack = new Stack<>();
+        stack.add(1);
+        stack.add(2);
+        System.out.println(stack); //[1, 2]
+
+        stack.push(4);
+        System.out.println(stack); //[1, 2, 4] (adds 4 to the end of the stack)
+
+        System.out.println(stack.peek()); //4 (returns the last element in the stack)
+        System.out.println(stack.get(1)); //2 (returns the element @ index 1 of the stack)
+
+        stack.pop(); //removes the last element in the stack
+        System.out.println(stack); [1, 2]
+```
