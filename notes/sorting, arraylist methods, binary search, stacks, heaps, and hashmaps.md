@@ -137,3 +137,29 @@
      The list would then be:
      [1, 3]
 ```
+
+### Binary Search (given ascending sorted array):
+```java
+    //Binary Search (given an ascending sorted array):
+    public static void binarySearch(int[] arr, int target) {
+        int low = 0;
+        int high = arr.length - 1;
+        while (true) {
+            if (low > high) {
+                System.out.println(-1); //Invalid index value if the target does not exist
+                break;
+            }
+            int i = (low + high) / 2;
+            if (arr[i] == target) {
+                System.out.println(i);
+                break;
+            }
+            if (arr[i] < target) {
+                low++;
+            }
+            if (arr[i] > target) {
+                high++;
+            }
+        }
+    }
+```
