@@ -3,7 +3,7 @@
 
 <h4>Notes</h4>
 <ul>
-  <li><a href="https://github.com/hershyz/interview-questions/blob/main/notes/sorting%2C%20arraylist%20methods%2C%20binary%20search%2C%20stacks%2C%20heaps%2C%20and%20hashmaps.md">Sorting, ArrayList Methods, Binary Search, Stacks, Heaps, and HashMaps</a></li>
+  <li><a href="https://github.com/hershyz/interview-questions/blob/main/notes/sorting%2C%20arraylist%20methods%2C%20binary%20search%2C%20stacks%2C%20heaps%2C%20and%20hashmaps.md">Sorting, ArrayList Methods, Binary Search, Stacks, and HashMaps</a></li>
 </ul>
 
 <h4>Problems</h4>
