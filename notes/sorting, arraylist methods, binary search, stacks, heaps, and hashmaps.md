@@ -164,7 +164,7 @@
     }
 ```
 
-### Stacks
+### Stacks:
 ```java
         Stack<Integer> stack = new Stack<>();
         stack.add(1);
