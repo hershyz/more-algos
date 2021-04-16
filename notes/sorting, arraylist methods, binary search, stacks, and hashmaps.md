@@ -180,3 +180,24 @@
         stack.pop(); //removes the last element in the stack
         System.out.println(stack); [1, 2]
 ```
+
+### HashMaps:
+```java
+        //Finds the count of unique words in the String 'str' using a HashMap:
+
+        String str = "she sells sea shells by the sea shore";
+        String[] arr = str.split(" ");
+        HashMap<String, Integer> count = new HashMap<>(); //Structure: HashMap<Key, Value> (String for the word, integer for the word count)
+
+        for (String s : arr) {
+            if (count.containsKey(s)) { //If the HashMap already contains the key (word string), it increments the value associated with the key.
+                int n = count.get(s) + 1;
+                count.replace(s, n);
+            }
+            if (!count.containsKey(s)) { //If the HaspMap does not contain the key (word string), it adds the key to the map and sets its value to 1.
+                count.put(s, 1);
+            }
+        }
+
+        System.out.println(count); //{the=1, she=1, sells=1, shells=1, by=1, shore=1, sea=2}
+```
