@@ -1,5 +1,6 @@
 ### Kadane's Algorithm
 ```java
+    //Finding the max sum subarray:
     public int maxSubArray(int[] nums) {
         
         int max = nums[0];
