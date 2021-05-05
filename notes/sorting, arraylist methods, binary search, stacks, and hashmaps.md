@@ -31,14 +31,14 @@
     //Ascending selection sort:
     public static void ascendingSelectionSort(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
-            int max = i;
+            int min = i;
             for (int j = i + 1; j < arr.length; j++) {
-                if (arr[j] < arr[max]) {
+                if (arr[j] < arr[min]) {
                     max = j;
                 }
             }
-            int temp = arr[max];
-            arr[max] = arr[i];
+            int temp = arr[min];
+            arr[min] = arr[i];
             arr[i] = temp;
         }
         System.out.println(Arrays.toString(arr));
@@ -47,14 +47,14 @@
     //Descending selection sort:
     public static void descendingSelectionSort(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
-            int min = i;
+            int max = i;
             for (int j = i + 1; j < arr.length; j++) {
-                if (arr[j] > arr[min]) {
+                if (arr[j] > arr[max]) {
                     min = j;
                 }
             }
-            int temp = arr[min];
-            arr[min] = arr[i];
+            int temp = arr[max];
+            arr[max] = arr[i];
             arr[i] = temp;
         }
         System.out.println(Arrays.toString(arr));
